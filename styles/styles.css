@@ -1,0 +1,120 @@
+@import url("https://fonts.cdnfonts.com/css/roobert");
+@import url("./nav.css");
+@import url("./carousel.css");
+@import url("./modal.css");
+@import url("./footer.css");
+@import url("./mobile.css");
+@import url("./category.css");
+
+html,
+body {
+  background-color: #fff;
+  font-family: "Roobert", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.swiper {
+  height: 1000px;
+  background-image: url("https://img-sneaksupincommerce.mncdn.com/Content/Images/Thumbs/0142362.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.owl-item {
+  width: 300px;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 1.6rem;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  padding-bottom: 50px;
+}
+
+.products .owl-carousel-2 {
+  max-width: 1500px;
+}
+
+.owl-carousel-3 {
+  max-width: 1500px;
+}
+
+.product-item {
+  cursor: pointer;
+}
+
+.product-item img {
+  transition: 0.1s all linear;
+}
+
+.product-item p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.product-item b {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.product-item:hover img {
+  opacity: 0.7;
+}
+
+.categories {
+  display: flex;
+}
+
+.category {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 700px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.star {
+  z-index: 1;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+
+.content {
+  padding-top: 4rem;
+}

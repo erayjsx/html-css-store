@@ -1,0 +1,140 @@
+nav {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.1s all linear;
+  position: fixed;
+  z-index: 2;
+}
+
+nav:hover {
+  background-color: #fff;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+nav.active {
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 14px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  font-size: 18px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-link {
+  transition: 0.1s all linear;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  border-bottom: 4px solid black;
+}
+
+nav ul li:hover .submenu {
+  display: flex;
+}
+
+.submenu {
+  display: none;
+  transition: 0.1s all linear;
+  position: absolute;
+  top: 91px;
+  background-color: #fff;
+  width: 100vw;
+  z-index: 5;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-top: 35px;
+  padding-bottom: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.submenu-container {
+  max-width: 960px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.submenu-column {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8rem;
+}
+
+.submenu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3rem;
+}
+
+.submenu-list .one-item {
+  font-weight: 700;
+  color: black;
+}
+
+.submenu-list a {
+  font-weight: 500;
+  font-size: 16px;
+  color: grey;
+}
+
+.list-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.list-one img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.all-link {
+  text-decoration: underline;
+}

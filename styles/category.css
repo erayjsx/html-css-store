@@ -1,0 +1,45 @@
+.content-urunler {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
+
+.content-urunler a {
+  width: 300px;
+}
+
+.content-urunler a img {
+  width: 100%;
+}
+
+.urunler-header {
+  margin-bottom: 20px;
+  padding: 0 5%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.urunler-header button {
+  font-family: "Poppins";
+  font-size: 18px;
+  border-radius: 50px;
+  border: 1px solid grey;
+  padding: 8px 25px;
+  transition: 0.2s all linear;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.urunler-header button:hover {
+  background-color: #eee;
+}
+
+.urunler-header button svg {
+  width: 18px;
+  height: 18px;
+}

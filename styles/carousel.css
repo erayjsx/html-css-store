@@ -1,0 +1,25 @@
+.custom-nav button {
+  font-size: 8rem;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(255, 255, 255) !important;
+  border: 2px solid rgb(187, 187, 187) !important;
+  border-radius: 50px;
+  transition: 0.1s all linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-nav button:hover {
+  border: 2px solid rgb(0, 0, 0) !important;
+}
+
+.custom-nav {
+  z-index: 1;
+  position: absolute;
+  bottom: 60px;
+  left: 90px;
+  display: flex;
+  gap: 10px;
+}
