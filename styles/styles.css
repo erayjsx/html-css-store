@@ -4,7 +4,9 @@
 @import url("./modal.css");
 @import url("./footer.css");
 @import url("./mobile.css");
+@import url("./urun.css");
 @import url("./category.css");
+@import url("./sidebar.css");
 
 html,
 body {
@@ -37,6 +39,7 @@ button {
   display: flex;
   flex-wrap: wrap;
 }
+
 .owl-item {
   width: 300px;
 }
@@ -117,4 +120,15 @@ button {
 
 .content {
   padding-top: 4rem;
+}
+
+.collapse .collapse-content {
+  display: none;
+}
+
+.collapse .collapse-btn {
+  background-color: #ccc;
+  color: #fff;
+  padding: 10px;
+  border: none;
 }

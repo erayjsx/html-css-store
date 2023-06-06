@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <script src="scripts/script.js"></script>
     <script src="scripts/modal.js"></script>
+    <script src="scripts/sidebar.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css"
       rel="stylesheet"
@@ -35,7 +36,7 @@
 
       <ul class="menu">
         <li>
-          <a href="pages/kadin.html" class="nav-link">Kadın</a>
+          <a href="pages/category.html" class="nav-link">Kadın</a>
           <div class="submenu">
             <div class="submenu-container">
               <div class="submenu-column">
@@ -102,7 +103,7 @@
           </div>
         </li>
         <li>
-          <a href="pages/erkek.html" class="nav-link">Erkek</a>
+          <a href="pages/category.html" class="nav-link">Erkek</a>
           <div class="submenu">
             <div class="submenu-container">
               <div class="submenu-column">
@@ -169,7 +170,7 @@
           </div>
         </li>
         <li>
-          <a href="pages/cocuk.html" class="nav-link">Çocuk</a>
+          <a href="pages/category.html" class="nav-link">Çocuk</a>
           <div class="submenu">
             <div class="submenu-container">
               <div class="submenu-column">
@@ -268,7 +269,7 @@
             ></path>
           </svg>
         </a>
-        <a href="">
+        <button onclick="openBasket()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -279,7 +280,7 @@
               d="M20.0049 22H4.00488C3.4526 22 3.00488 21.5523 3.00488 21V3C3.00488 2.44772 3.4526 2 4.00488 2H20.0049C20.5572 2 21.0049 2.44772 21.0049 3V21C21.0049 21.5523 20.5572 22 20.0049 22ZM19.0049 20V4H5.00488V20H19.0049ZM9.00488 6V8C9.00488 9.65685 10.348 11 12.0049 11C13.6617 11 15.0049 9.65685 15.0049 8V6H17.0049V8C17.0049 10.7614 14.7663 13 12.0049 13C9.24346 13 7.00488 10.7614 7.00488 8V6H9.00488Z"
             ></path>
           </svg>
-        </a>
+        </button>
       </div>
     </nav>
 
@@ -331,6 +332,50 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div id="myNav" class="overlay">
+      <div class="overlay-head">
+        <img src="../images/logo.png" height="40px" />
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="32"
+            height="32"
+          >
+            <path
+              d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <div class="overlay-content">
+        <a href="../pages/category.html">Kadın</a>
+        <a href="../pages/category.html">Erkek</a>
+        <a href="../pages/category.html">Çocuk</a>
+        <a href="../pages/category.html">Sneaker</a>
+        <a href="../pages/category.html">Yeniler</a>
+      </div>
+    </div>
+
+    <div id="basket" class="basket">
+      <div class="basket-head">
+        <b>Sepetim</b>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeBasket()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="32"
+            height="32"
+          >
+            <path
+              d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <div class="basket-content"></div>
     </div>
 
     <div class="page-title">
@@ -420,21 +465,21 @@
 
     <div class="categories">
       <a
-        href="pages/kadin.html"
+        href="pages/category.html"
         style="
           background-image: url('https://img-sneaksupincommerce.mncdn.com/Content/Images/Thumbs/0138794.jpeg');
         "
         class="category"
       ></a>
       <a
-        href="pages/erkek.html"
+        href="pages/category.html"
         style="
           background-image: url('https://img-sneaksupincommerce.mncdn.com/Content/Images/Thumbs/0138795.jpeg');
         "
         class="category"
       ></a>
       <a
-        href="pages/cocuk.html"
+        href="pages/category.html"
         style="
           background-image: url('https://img-sneaksupincommerce.mncdn.com/Content/Images/Thumbs/0132915.jpeg');
         "

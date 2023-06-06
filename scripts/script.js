@@ -4,7 +4,7 @@ window.addEventListener("scroll", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var owl = document.querySelector(".owl-carousel");
+  var owl = document.querySelector(".owl-carousel-1");
 
   $(owl).owlCarousel({
     loop: true,
@@ -73,6 +73,31 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       1200: {
         items: 4.6,
+      },
+    },
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var owl = document.querySelector(".detail-carousel");
+
+  $(owl).owlCarousel({
+    loop: true,
+    nav: true,
+    dots: true,
+    autoplay: true,
+    margin: 15,
+    lazyLoad: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
       },
     },
   });

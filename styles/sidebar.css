@@ -1,0 +1,76 @@
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 8rem rgba(0, 0, 0, 0.555);
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.overlay-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.overlay-content {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+
+.overlay a {
+  padding: 12px;
+  text-decoration: none;
+  font-size: 26px;
+  display: block;
+  font-family: "Roobert", sans-serif !important;
+  font-weight: 600;
+}
+
+.basket {
+  height: 100%;
+  max-width: 500px;
+  width: 0;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 30rem rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.basket b {
+  font-size: 25px;
+}
+
+.basket-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.basket-content {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+
+.basket a {
+  padding: 10px;
+  font-family: "Roobert", sans-serif !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,92 @@
+.urun-container {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  padding: 100px 10%;
+}
+
+.urun-images {
+  display: flex;
+}
+
+.urun-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+  padding: 20px;
+  gap: 15px;
+}
+
+.urun-detail h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.urun-detail p {
+  font-size: 15px;
+}
+
+.urun-detail label {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.urun-detail select {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  max-width: 500px;
+  font-family: "Roobert", sans-serif;
+  font-size: 16px;
+}
+
+.urun-detail button {
+  background-color: black;
+  font-family: "Roobert", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  max-width: 500px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.urun-detail b {
+  font-size: 20px;
+}
+
+.detail-carousel {
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.detail-carousel .item {
+  background-repeat: no-repeat;
+  background-color: green;
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.detail-carousel img {
+  object-fit: cover;
+}
+
+.owl-nav {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.owl-nav button {
+  border: 2px solid rgb(212, 212, 212) !important;
+  background-color: #fff !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px !important;
+}
