@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Giriş Yap - Store</title>
+    <title>Store</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="stylesheet" href="../styles/login.css" />
     <script src="../scripts/script.js"></script>
     <script src="../scripts/modal.js"></script>
     <script src="../scripts/sidebar.js"></script>
+
     <link
       href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css"
       rel="stylesheet"
@@ -19,7 +19,7 @@
   <body>
     <nav>
       <div class="nav-left">
-        <button onclick="openNav()">
+        <button onclick="openModal()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -37,31 +37,31 @@
 
       <ul class="menu">
         <li>
-          <a href="../pages/category.html" class="nav-link">Kadın</a>
+          <a href="category.html" class="nav-link">Kadın</a>
           <div class="submenu">
             <div class="submenu-container">
               <div class="submenu-column">
                 <ul class="submenu-column">
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0095964_0.jpeg"
                       />
                       Basketbol Ana Sayfa
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0127696_0.jpeg"
                       />
                       Yeni Gelenler
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0104565_0.jpeg"
                       />
                       NBA
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0127698_0.jpeg"
                       />
@@ -69,38 +69,28 @@
                     </a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item"
-                      >Ayakkabı</a
-                    >
-                    <a href="../pages/category.html">Sneaker</a>
-                    <a href="../pages/category.html">Terlik</a>
-                    <a href="../pages/category.html">Basketbol</a>
-                    <a href="../pages/category.html">Koşu</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Ayakkabı</a>
+                    <a href="category.html">Sneaker</a>
+                    <a href="category.html">Terlik</a>
+                    <a href="category.html">Basketbol</a>
+                    <a href="category.html">Koşu</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item">Giyim</a>
-                    <a href="../pages/category.html">Tişört</a>
-                    <a href="../pages/category.html">Sweatshirt</a>
-                    <a href="../pages/category.html">Eşofman</a>
-                    <a href="../pages/category.html">Şort</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Giyim</a>
+                    <a href="category.html">Tişört</a>
+                    <a href="category.html">Sweatshirt</a>
+                    <a href="category.html">Eşofman</a>
+                    <a href="category.html">Şort</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item"
-                      >Aksesuar</a
-                    >
-                    <a href="../pages/category.html">Şapka</a>
-                    <a href="../pages/category.html">Çanta</a>
-                    <a href="../pages/category.html">Çorap</a>
-                    <a href="../pages/category.html">Bandana</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Aksesuar</a>
+                    <a href="category.html">Şapka</a>
+                    <a href="category.html">Çanta</a>
+                    <a href="category.html">Çorap</a>
+                    <a href="category.html">Bandana</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                 </ul>
               </div>
@@ -108,31 +98,31 @@
           </div>
         </li>
         <li>
-          <a href="../pages/category.html" class="nav-link">Erkek</a>
+          <a href="category.html" class="nav-link">Erkek</a>
           <div class="submenu">
             <div class="submenu-container">
               <div class="submenu-column">
                 <ul class="submenu-column">
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0095964_0.jpeg"
                       />
                       Basketbol Ana Sayfa
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0127696_0.jpeg"
                       />
                       Yeni Gelenler
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0104565_0.jpeg"
                       />
                       NBA
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0127698_0.jpeg"
                       />
@@ -140,38 +130,28 @@
                     </a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item"
-                      >Ayakkabı</a
-                    >
-                    <a href="../pages/category.html">Sneaker</a>
-                    <a href="../pages/category.html">Terlik</a>
-                    <a href="../pages/category.html">Basketbol</a>
-                    <a href="../pages/category.html">Koşu</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Ayakkabı</a>
+                    <a href="category.html">Sneaker</a>
+                    <a href="category.html">Terlik</a>
+                    <a href="category.html">Basketbol</a>
+                    <a href="category.html">Koşu</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item">Giyim</a>
-                    <a href="../pages/category.html">Tişört</a>
-                    <a href="../pages/category.html">Sweatshirt</a>
-                    <a href="../pages/category.html">Eşofman</a>
-                    <a href="../pages/category.html">Şort</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Giyim</a>
+                    <a href="category.html">Tişört</a>
+                    <a href="category.html">Sweatshirt</a>
+                    <a href="category.html">Eşofman</a>
+                    <a href="category.html">Şort</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item"
-                      >Aksesuar</a
-                    >
-                    <a href="../pages/category.html">Şapka</a>
-                    <a href="../pages/category.html">Çanta</a>
-                    <a href="../pages/category.html">Çorap</a>
-                    <a href="../pages/category.html">Bandana</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Aksesuar</a>
+                    <a href="category.html">Şapka</a>
+                    <a href="category.html">Çanta</a>
+                    <a href="category.html">Çorap</a>
+                    <a href="category.html">Bandana</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                 </ul>
               </div>
@@ -179,31 +159,31 @@
           </div>
         </li>
         <li>
-          <a href="../pages/category.html" class="nav-link">Çocuk</a>
+          <a href="category.html" class="nav-link">Çocuk</a>
           <div class="submenu">
             <div class="submenu-container">
               <div class="submenu-column">
                 <ul class="submenu-column">
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0095964_0.jpeg"
                       />
                       Basketbol Ana Sayfa
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0127696_0.jpeg"
                       />
                       Yeni Gelenler
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0104565_0.jpeg"
                       />
                       NBA
                     </a>
-                    <a href="../pages/category.html" class="list-one">
+                    <a href="category.html" class="list-one">
                       <img
                         src="https://img-sneaksupincommerce.mncdn.com/mnresize/280/280/Content/Images/Originals/0127698_0.jpeg"
                       />
@@ -211,38 +191,28 @@
                     </a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item"
-                      >Ayakkabı</a
-                    >
-                    <a href="../pages/category.html">Sneaker</a>
-                    <a href="../pages/category.html">Terlik</a>
-                    <a href="../pages/category.html">Basketbol</a>
-                    <a href="../pages/category.html">Koşu</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Ayakkabı</a>
+                    <a href="category.html">Sneaker</a>
+                    <a href="category.html">Terlik</a>
+                    <a href="category.html">Basketbol</a>
+                    <a href="category.html">Koşu</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item">Giyim</a>
-                    <a href="../pages/category.html">Tişört</a>
-                    <a href="../pages/category.html">Sweatshirt</a>
-                    <a href="../pages/category.html">Eşofman</a>
-                    <a href="../pages/category.html">Şort</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Giyim</a>
+                    <a href="category.html">Tişört</a>
+                    <a href="category.html">Sweatshirt</a>
+                    <a href="category.html">Eşofman</a>
+                    <a href="category.html">Şort</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                   <li class="submenu-list">
-                    <a href="../pages/category.html" class="one-item"
-                      >Aksesuar</a
-                    >
-                    <a href="../pages/category.html">Şapka</a>
-                    <a href="../pages/category.html">Çanta</a>
-                    <a href="../pages/category.html">Çorap</a>
-                    <a href="../pages/category.html">Bandana</a>
-                    <a href="../pages/category.html" class="all-link"
-                      >Tümüno Gör</a
-                    >
+                    <a href="category.html" class="one-item">Aksesuar</a>
+                    <a href="category.html">Şapka</a>
+                    <a href="category.html">Çanta</a>
+                    <a href="category.html">Çorap</a>
+                    <a href="category.html">Bandana</a>
+                    <a href="category.html" class="all-link">Tümüno Gör</a>
                   </li>
                 </ul>
               </div>
@@ -270,7 +240,7 @@
             ></path>
           </svg>
         </button>
-        <a href="">
+        <a href="../account/login.html">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -370,40 +340,98 @@
           </svg>
         </a>
       </div>
-      <div class="basket-content">
-        <div class="basket-item">
-          <img
-            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0141670_0.jpeg"
-          />
-          <div class="basket-item-content">
-            <b>Nike Air Flight 89</b>
-            <p>Erkek Sneaker</p>
-            <b>3099,00 TL</b>
-          </div>
-        </div>
-        <button>Ödeme</button>
-      </div>
+      <div class="basket-content"></div>
     </div>
 
-    <div class="login-container">
-      <div class="form">
-        <b>Giriş Yap</b>
-        <form action="">
-          <label for="email">E-mail</label>
-          <input
-            type="email"
-            for="E-Mail"
-            placeholder="Email"
-            name="email"
-            id="email"
-          />
-          <label for="sifre">Şifre</label>
-          <input type="password" placeholder="Şifre" name="sifre" id="sifre" />
-          <button class="login-btn btn">Giriş yap</button>
-          <a href="register.html" class="register-btn btn">Kayıt ol</a>
-        </form>
+    <div class="content">
+      <p class="page-title">Ürünler</p>
+      <div class="urunler-header">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M21 18V21H19V18H17V16H23V18H21ZM5 18V21H3V18H1V16H7V18H5ZM11 6V3H13V6H15V8H9V6H11ZM11 10H13V21H11V10ZM3 14V3H5V14H3ZM19 14V3H21V14H19Z"
+            ></path>
+          </svg>
+          Filtrele
+        </button>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M8 4H21V6H8V4ZM5 3V6H6V7H3V6H4V4H3V3H5ZM3 14V11.5H5V11H3V10H6V12.5H4V13H6V14H3ZM5 19.5H3V18.5H5V18H3V17H6V21H3V20H5V19.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z"
+            ></path>
+          </svg>
+          Sıralama
+        </button>
       </div>
-      <div class="form-img"></div>
+      <div class="content-urunler">
+        <a href="detail.html" class="product-item">
+          <img
+            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0140828_0.jpeg"
+          />
+          <p>adidas Campus 00S</p>
+          <b>1920 TL</b>
+        </a>
+        <a href="detail.html" class="product-item">
+          <img
+            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0140828_0.jpeg"
+          />
+          <p>adidas Campus 00S</p>
+          <b>1920 TL</b>
+        </a>
+        <a href="detail.html" class="product-item">
+          <img
+            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0140828_0.jpeg"
+          />
+          <p>adidas Campus 00S</p>
+          <b>1920 TL</b>
+        </a>
+
+        <a href="detail.html" class="product-item">
+          <img
+            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0140828_0.jpeg"
+          />
+          <p>adidas Campus 00S</p>
+          <b>1920 TL</b>
+        </a>
+        <a href="detail.html" class="product-item">
+          <img
+            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0140828_0.jpeg"
+          />
+          <p>adidas Campus 00S</p>
+          <b>1920 TL</b>
+        </a>
+        <a href="detail.html" class="product-item">
+          <img
+            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0140828_0.jpeg"
+          />
+          <p>adidas Campus 00S</p>
+          <b>1920 TL</b>
+        </a>
+        <a href="detail.html" class="product-item">
+          <img
+            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0140828_0.jpeg"
+          />
+          <p>adidas Campus 00S</p>
+          <b>1920 TL</b>
+        </a>
+        <a href="detail.html" class="product-item">
+          <img
+            src="https://img-sneaksupincommerce.mncdn.com/mnpadding/399/523/FFFFFF/Content/Images/Originals/0140828_0.jpeg"
+          />
+          <p>adidas Campus 00S</p>
+          <b>1920 TL</b>
+        </a>
+      </div>
     </div>
 
     <footer>
@@ -481,5 +509,42 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
-  </body>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 </html>

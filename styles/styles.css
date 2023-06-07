@@ -75,6 +75,13 @@ button {
   transition: 0.1s all linear;
 }
 
+.content-urunler .product-item img {
+  transition: 0.1s all linear;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .product-item p {
   margin: 0;
   margin-bottom: 5px;

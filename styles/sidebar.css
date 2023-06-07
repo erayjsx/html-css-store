@@ -1,21 +1,26 @@
 .overlay {
-  height: 100%;
-  width: 0;
   position: fixed;
   z-index: 9;
-  top: 0;
-  left: 0;
+  top: 15px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 8rem rgba(0, 0, 0, 0.555);
   overflow: hidden;
   transition: 0.2s;
+  border-radius: 20px;
+  opacity: 0;
+  height: 0;
 }
 
 .overlay-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 15px;
+  height: 80px;
+  padding: 0 15px;
+  padding-right: 20px;
 }
 
 .overlay-content {
@@ -34,17 +39,20 @@
 }
 
 .basket {
-  height: 100%;
+  opacity: 0;
+  height: 0;
   max-width: 500px;
-  width: 0;
+  width: 100%;
   position: fixed;
   z-index: 9;
   top: 0;
   right: 0;
+  margin: 20px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 30rem rgba(0, 0, 0, 0.8);
   overflow: hidden;
   transition: 0.2s;
+  border-radius: 20px;
 }
 
 .basket b {
@@ -55,15 +63,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 10px 30px;
   box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2);
   background: #fff;
+  height: 60px;
 }
 
 .basket-content {
   position: relative;
   width: 100%;
-  padding: 20px;
+  height: 91%;
 }
 
 .basket a {
@@ -73,4 +82,51 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.closebtn {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.basket-content button {
+  position: absolute;
+  background-color: black;
+  height: 60px;
+  color: #fff;
+  bottom: 25px;
+  left: 15px;
+  right: 15px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 0.2s all;
+}
+
+.basket-content button:hover {
+  opacity: 0.8;
+}
+
+.basket-item {
+  display: flex;
+  overflow: hidden;
+  padding: 15px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.basket-item-content {
+  display: flex;
+  overflow: hidden;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.basket-item-content b {
+  font-size: 19px;
+  max-lines: 1;
+}
+
+.basket-item img {
+  height: 110px;
 }

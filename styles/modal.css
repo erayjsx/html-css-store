@@ -10,7 +10,8 @@
   background-color: rgba(0, 0, 0, 0.39);
   border-top: 1px solid grey;
   justify-content: center;
-  transition: 0.1s all linear;
+  transition: 0.2s all linear;
+  opacity: 0;
 }
 
 .modal-content {

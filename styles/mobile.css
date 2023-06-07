@@ -48,6 +48,10 @@
   .mobile-nav {
     display: flex;
   }
+
+  .content {
+    padding-top: 0 !important;
+  }
 }
 
 /* content */
@@ -55,6 +59,7 @@
 @media screen and (max-width: 900px) {
   .page-title {
     font-size: 18px !important;
+    margin-top: 0 !important;
   }
 
   .modal-header {
@@ -130,6 +135,7 @@
 
   .form {
     max-width: 500px;
+    padding: 1.5rem !important;
   }
 
   .form-img {
@@ -181,5 +187,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .basket {
+    margin: 0 !important;
+    border-radius: 0 !important;
   }
 }
